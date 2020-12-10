@@ -14,11 +14,9 @@ body{
    z-index: -1;
   
 }
-.img{
-    background-color: white;
-    height: 220px;
+.responsive-image{
     margin-top:05%;
-    border-radius:10000px;
+    
 }
 .img:hover{
     animation: zoom 5s ;
