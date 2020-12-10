@@ -139,3 +139,7 @@ i:hover{
     padding: 50px;
     padding-top: 20px;
 }
+.p1{
+    position: relative;
+    top: 80px;
+}
