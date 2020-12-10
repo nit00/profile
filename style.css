@@ -15,7 +15,8 @@ body{
   
 }
 .responsive-image{
-    margin-top:3%;
+    margin-top:30px;
+    padding: 10p;
     
 }
 .img:hover{
