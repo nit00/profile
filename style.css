@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(to right,#fce4ec,white,white)
+}
+
+
+.c1{
+   
+    position: relative;
+    top: 100px;
+    background-color: #fce4ec;
+    height: 500px;
+    box-shadow: lightgray -18px 12px 12px;
+    border: black solid white;
+   z-index: -1;
+  
+}
+.img{
+    background-color: white;
+    height: 220px;
+    margin-top:05%;
+    border-radius:10000px;
+}
+.img:hover{
+    animation: zoom 5s ;
+    animation-iteration-count: infinite;
+}
+.h4{
+text-align: center;
+font-size: 23pt;
+font-weight: bolder;
+letter-spacing:2px;
+font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+    letter-spacing:2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes zoom{
+    0%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1.2;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1.2;
+    }
+}
+.c2{
+   position: relative;
+   top: 100px;
+    background-color:white;
+    height: 500px;
+    box-shadow: lightgray 18px 12px 12px;
+    border: black solid white;
+  
+}
+
+hr{ 
+    position: relative;
+    top: 10px;
+    width: 50px;
+    color: #1e88ef;
+}
+.work{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    letter-spacing:5px;
+}
+.footer2{
+    position: relative;
+    top: 65px;
+    display: flex;
+    flex-wrap:nowrap ;
+    height: 30px;
+    align-items: center;
+    
+}
+i{
+    position: relative;
+    top: 10px;
+}
+i:hover{
+    animation: zoom 1s;
+}
+.f1{
+    background-color: white;
+    margin-top:35px; 
+    padding: 500px;
+    
+
+}
+.btn1{
+    background-color: #1976d2;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100px;
+    border: #1976d2 solid;
+    border-width: 0.1px;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+   
+}
+.btn2{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100px;
+    border:black solid;
+    border-width: 0.1px;
+}
+.btn2:hover{
+    background-color: #1976d2;
+    color: white;
+    border:none;
+   
+}
+.foot{
+    background-color:white;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    top: 200px;
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+}
+.down{
+    padding: 50px;
+    padding-top: 20px;
+}
