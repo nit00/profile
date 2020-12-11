@@ -19,7 +19,7 @@ body{
     padding: 10p;
     
 }
-.img:hover{
+.responsive-image:hover{
     animation: zoom 5s ;
     animation-iteration-count: infinite;
 }
