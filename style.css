@@ -62,6 +62,14 @@ h5{
   
 }
 
+.c3{
+   color: black;
+    background-color: white;
+    height: 500px;
+    box-shadow: lightgray -18px 12px 12px;
+    border: black solid white;
+}
+
 hr{ 
     position: relative;
     top: 10px;
@@ -155,4 +163,7 @@ hr{
     border: black solid;
     border-width: 0.1px;
     background-color:white;
+}
+.cont{
+    margin-left: 
 }
