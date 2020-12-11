@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Slabo+27px&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="navbar-fixed">
-  <nav>   
+  <nav class="red lighten-3">   
     <div class="nav-wrapper">
       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" class="brand-logo"style=" font-family:'Bebas Neue',cursive; padding-left:2%;">Nitin Patel</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Projects</a></li>
       </ul>
     </div>
      </nav>
@@ -29,13 +31,17 @@
         </div>
         <a href="#user"><img class="circle" src="profile.png"></a>
         <a href="#name"><span class="white-text name">Nitin Patel</span></a>
-        <a href="#email"><span class="white-text email">nitin19.myid@gmail.com</span></a>
+        <a href="#profile"><span class="white-text email">Web Developer</span></a>
       </div></li>
-      <li><a href="#!"><i class="material-icons">info</i>About</a></li>
-      <li><a href="#!">Second Link</a></li>
+      <li><a href="#about" class="sidenav-close"><i class="material-icons">info</i>About</a></li>
+      <li><a href="#!" class="sidenav-close"><i class="material-icons">assignment</i>Projects</a></li>
       <li><div class="divider"></div></li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect btn" href="#!">Contact</a></li>
+      <li><a class="small waves-effect btn btn3" style="border-radius: 100px;color: black;"><i class="material-icons">download</i>Resume</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader" href="#!">Contact Details</a></li>
+      <li><a href="#!" class="sidenav-close"><i class="material-icons">contact_phone</i>9005458865</a></li>
+      <li><a href="#!" class="sidenav-close"><i class="material-icons">email</i>nitin19.myid@gmail.com</a></li>
+      
     </ul>
     
     <div class="container">
@@ -48,7 +54,7 @@
             <div class="col s12 work"><span>WEB DEVELOPER</span></div>    
         </div>
         <div class="col l3 "></div>
-        <div class="card c2 col l8 xl5 m8 push-m2 s12">
+        <div class="card c2 col l8 xl5 m8 push-m2 s12" id="about">
                <span style="font-size:48pt; font-weight: bolder; padding: 10px;">Hello!</span><br> <span style=" font-size: 21pt;padding: 10px;">Here is who I am and what I do</span>
                <br>
                <div class="col s12" style="position: relative; top: 20px;">
@@ -62,13 +68,16 @@
             </div>
         <div class="f1 col xl6 offset-xl2 m6 push-m4 l6 push-l4 " style="z-index:2;">
             <div class="row">
-                <i class="small material-icons col m2 push-m1 l3 push-l3 xl3 push-xl3 s4 push-s10 ">add</i>
-                <i class="small material-icons col m2 push-m1 l3 push-l2 xl3 push-xl1 s4 push-s10">error</i>
-                <i class="small material-icons col m2 push-m1 l3 push-l1 xl3 pull-xl1 s4 push-s10">facebook</i>
+                <i class="small material-icons col m2 push-m1 l3 push-l3 xl3 push-xl3 s4 push-s10 i2 ">add</i>
+                <i class="small material-icons col m2 push-m1 l3 push-l2 xl3 push-xl1 s4 push-s10 i2">error</i>
+                <i class="small material-icons col m2 push-m1 l3 push-l1 xl3 pull-xl1 s4 push-s10 i2">facebook</i>
             </div>
         </div>
     </div>
     </div>
+
+
+      
 <footer class="foot">
 <div style="float: right;" class="down">Follow at <br> github/nit00</div>
 <div style="float: right;" class="down">Email Me <br> nitin19.myid@gmail.com </div>
@@ -81,8 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems, {});
   });
   
-
 </script>
+
    
 </body>
 </html>

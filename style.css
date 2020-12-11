@@ -28,7 +28,7 @@ text-align: center;
 font-size: 23pt;
 font-weight: bolder;
 letter-spacing:2px;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Bebas Neue',cursive;
 }
 h5{
     text-align: center;
@@ -73,6 +73,8 @@ hr{
     top: 20px;
     text-align: center;
     letter-spacing:5px;
+    font-family:'Slabo 29px',serif;
+    font-weight: bolder;
 }
 .footer2{
     position: relative;
@@ -83,11 +85,11 @@ hr{
     align-items: center;
     
 }
-i{
+.i2{
     position: relative;
     top: 10px;
 }
-i:hover{
+.i2:hover{
     animation: zoom 1s;
 }
 .f1{
@@ -126,7 +128,7 @@ i:hover{
    
 }
 .foot{
-    background-color:white;
+    background-color:#616161;
     width: 100%;
     z-index: 5;
     position: relative;
@@ -134,12 +136,23 @@ i:hover{
     display: flex;
     float: right;
     flex-wrap: wrap;
+    box-shadow: black 5px 6px 12px;
+    color: white;
 }
 .down{
     padding: 50px;
     padding-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
 }
 .p1{
     position: relative;
     top: 15%;
+}
+.btn3{
+    width: 200px;
+    text-align: left;
+    border: black solid;
+    border-width: 0.1px;
+    background-color:white;
 }
