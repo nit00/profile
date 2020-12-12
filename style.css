@@ -173,3 +173,22 @@ hr{
     flex-wrap: nowrap;
    
 }
+.mob{
+    visibility:hidden;
+}
+@media screen and (max-width:1200px)
+{
+    .mob{
+visibility: visible;
+position: absolute;
+bottom: 5%;
+    }
+    .mob2{
+       display: none;
+    }
+    .p1{
+        position: relative;
+        top:1px;
+    
+    }
+}
