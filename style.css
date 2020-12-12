@@ -164,6 +164,9 @@ hr{
     border-width: 0.1px;
     background-color:white;
 }
-.cont{
-    margin-left: 
+.heading{
+    padding:2%;
+    font-size: 25pt;
+    font-weight: 700;
+   
 }
