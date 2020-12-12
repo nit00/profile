@@ -168,5 +168,7 @@ hr{
     padding:2%;
     font-size: 25pt;
     font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
    
 }
